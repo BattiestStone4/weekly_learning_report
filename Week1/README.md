@@ -1,5 +1,5 @@
 # 第1周
-准备了一份HW问题清单和整理的回答在hwnotes.md //TODO
+准备了一份HW问题清单和整理的回答在hwnotes.md
 
 新编日语1第9-10课笔记在nihongo1_L9-10.md //TODO
 
