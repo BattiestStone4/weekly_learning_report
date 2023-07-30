@@ -14,3 +14,26 @@ weekly reports for my study. Inspired by Kiprey/Skr_Learning &amp;&amp; continui
 
 > 学习内容：HW准备，新编日语，现代操作系统，pwn日常做题。
 
+HW：写了一份笔记
+
+新编日语：9-10课
+
+现代操作系统：1-2章
+
+## 第2-3周/Week 2-3（2023.7.17-2023.7.30）
+
+>学习内容：新编日语，现代操作系统，pwn日常做题，ArceOS，组网。
+
+新编日语：11-14课
+
+现代操作系统：3-4章
+
+ArceOS：rCore阅读源码与lab
+
+pwn：一道有关整数溢出的堆题与补题
+
+组网：LAB v3.1从MPLS VPN继续
+
+### 第4-5周/Week 4-5（2023.7.31-2023.8.13）
+
+> 学习内容：
