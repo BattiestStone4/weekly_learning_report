@@ -2,8 +2,6 @@
 
 总结一下最近做的pwn题。有些还挺有意思的。本文同步于周报repo && 个人博客。喜欢的话点个star或收藏博客。
 
-[TOC]
-
 
 ### HWS2023_fmt
 
@@ -172,7 +170,7 @@ add里限制了堆块的大小，而且不是直接写入堆块，而是先创�
 
 主要漏洞出现在delete里，这里对整数的判断是有漏洞的。在判断大于0时，可以将高符号位设为1，判断时会认定该数字满足小于15的条件。而在判断小于0时，低字节又大于0。这样的绕过之后，可以实现任意地址的free。
 
-![image-20230730213324973](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20230730213324973.png)
+![image-20230730213324973](https://raw.githubusercontents.com/BattiestStone4/imgs/master/2023/07/1690788457.png)
 
 又因为这里存在uaf漏洞，我们可以构造一个tcache里的double free，之后实现申请到free_hook并写入one_gadget。
 
